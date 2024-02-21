@@ -1,23 +1,23 @@
-Store Server
-The project for study Django.
+<h2 align="center">Store Server</h2>
+###The project for study Django.
 
-Stack:
-Python
+###Stack:
+- Python
 
-Local Developing
-All actions should be executed from the source directory of the project and only after installing all requirements.
+###Local Developing
+###All actions should be executed from the source directory of the project and only after installing all requirements.
 
-Firstly, create and activate a new virtual environment:
+### 1.Firstly, create and activate a new virtual environment:
 
-python3.12 -m venv ../venv
-venv/bin/activate
-Install packages:
+###python3.12 -m venv ../venv
+###venv/bin/activate
+### 2.Install packages:
 
-pip install --upgrade pip
-pip install -r requirements.txt
-Run project dependencies, migrations, fill the database with the fixture data etc.:
+###pip install --upgrade pip
+###pip install -r requirements.txt
+### 3.Run project dependencies, migrations, fill the database with the fixture data etc.:
 
-./manage.py migrate
-./manage.py loaddata <path_to_fixture_files>
-./manage.py runserver 
+### python manage.py migrate
+### python manage.py loaddata <path_to_fixture_files>
+### puthon manage.py runserver 
 
