@@ -5,7 +5,7 @@
 - Python
 
 <h2>Local Developing</h2>
-## All actions should be executed from the source directory of the project and only after installing all requirements.
+All actions should be executed from the source directory of the project and only after installing all requirements.
 
 ##### 1.Firstly, create and activate a new virtual environment:
 
