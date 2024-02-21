@@ -14,7 +14,7 @@ All actions should be executed from the source directory of the project and only
 -git clone https://github.com/AliaksandrMartsun/store-server.git
 ##### 2.Firstly, create and activate a new virtual environment:
 
-- python -m venv ../venv
+- python -m venv venv
 - venv\bin\activate
 ##### 3.Install packages:
 
